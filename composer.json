@@ -1,5 +1,5 @@
 {
-    "name": "jtreminio/testExtensions",
+    "name": "jtreminio/test-extensions",
     "type": "library",
     "description": "Some useful PHPUnit methods to make testing easier, and more fun",
     "keywords": ["PHPUnit", "testing"],

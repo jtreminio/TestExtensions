@@ -2,12 +2,14 @@
 
 namespace jtreminio\TestExtensions;
 
+use \Silex\WebTestCase;
+
 /**
- * Some useful methods to make testing with PHPUnit faster and more fun
+ * Some useful methods to make testing with PHPUnit faster and more fun, with integration into Silex
  *
  * @author Juan Treminio <jtreminio@gmail.com>
  */
-abstract class TestExtensionsSilex extends \PHPUnit_Framework_TestCase
+abstract class TestExtensionsSilex extends WebTestCase
 {
 
     /**

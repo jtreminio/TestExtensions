@@ -17,7 +17,7 @@
         "EHER/PHPUnit": "1.6"
     },
     "autoload": {
-        "psr-0": { "jtreminio\\TestExtensions": "TestExtensions/" }
+        "psr-0": { "jtreminio\\TestExtensions": "src/" }
     },
     "extra": {
         "branch-alias": {

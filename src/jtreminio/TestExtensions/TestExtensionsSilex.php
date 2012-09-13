@@ -7,7 +7,7 @@ namespace jtreminio\TestExtensions;
  *
  * @author Juan Treminio <jtreminio@gmail.com>
  */
-abstract class TestExtensions extends \PHPUnit_Framework_TestCase
+abstract class TestExtensionsSilex extends \PHPUnit_Framework_TestCase
 {
 
     /**

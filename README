@@ -1,4 +1,6 @@
 jtreminio\\TestExtensions
 ======
 
-Some useful PHPUnit methods to make testing easier, and more fun
+Some useful PHPUnit methods to make testing easier, and more fun.
+
+Available as a Packagist package: jtreminio/test-extensions

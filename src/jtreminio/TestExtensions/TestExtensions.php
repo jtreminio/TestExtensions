@@ -29,6 +29,22 @@ abstract class TestExtensions extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Get protected/private attribute of object
+     *
+     * @param object &$object       Object containing attribute
+     * @param string $attributeName Attribute name to fetch
+     * @return mixed
+     */
+    public function getAttribute(&$object, $attributeName)
+    {
+        $class = is_object($object) ? get_class($object) : $object;
+
+        $reflection = new \ReflectionProperty($class, $attributeName);
+        $reflection->setAccessible(true);
+        return $reflection->getValue($object);
+    }
+
+    /**
      * Call protected/private method of a class.
      *
      * @param object &$object    Instantiated object that we will run method on.
